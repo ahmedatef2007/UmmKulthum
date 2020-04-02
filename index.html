@@ -29,6 +29,10 @@
       rel="stylesheet"
       href="vendor/owl-carousel/css/owl.theme.default.min.css"
     />
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
 
     <!--custom css file-->
     <link rel="stylesheet" href="css/style.css" />
@@ -39,7 +43,12 @@
   <body>
     <!--#################### start header #################-->
 
-    <header class="header">
+    <header
+      class="header"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div class="main-menu">
         <nav class="navbar navbar-expand-lg navbar-light ">
           <a class="navbar-brand" href="#"
@@ -91,7 +100,7 @@
     <main class="site-main">
       <!--################# start banner ####################-->
 
-      <section class="site-banner">
+      <section class="site-banner" data-aos="fade-up" data-aos-duration="500">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-12 site-title">
@@ -100,18 +109,23 @@
               <h4 class="title-text text-uppercase">star of the east</h4>
               <div class="site-buttons">
                 <div class="d-flex flex-row flex-wrap">
-                  <button
-                    type="button"
-                    class="btn button primary-button mr-4 text-uppercase"
+                  <a
+                    href="https://open.spotify.com/artist/52lsD82iOqGtyfEMqWgk4f"
+                    ><button
+                      type="button"
+                      class="btn button primary-button mr-4 text-uppercase"
+                    >
+                      Listen
+                    </button></a
                   >
-                    Listen
-                  </button>
-                  <button
-                    type="button"
-                    class="btn button secondary-button text-uppercase"
+                  <a href="https://www.youtube.com/user/ommkalthoum"
+                    ><button
+                      type="button"
+                      class="btn button secondary-button text-uppercase"
+                    >
+                      watch
+                    </button></a
                   >
-                    watch
-                  </button>
                 </div>
               </div>
             </div>
@@ -131,7 +145,12 @@
 
       <!--######################## start about #############################-->
 
-      <section class="about">
+      <section
+        class="about"
+        data-aos="fade-down"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-md-12">
@@ -172,7 +191,12 @@
 
       <!--######################## end about #############################-->
       <!--------------------------------------start brand ------------------>
-      <section class="brand">
+      <section
+        class="brand"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="container-fluid">
           <div class="row">
             <div class="col-xl-6 col-lg-12 col-md-12">
@@ -235,13 +259,15 @@
                   </h2>
                 </div>
                 <div class="d-flex flex-row flex-wrap call-area">
-                  <span><i class="fas fa-phone-alt fa-3x px-4"></i></span>
+                  <span><i class="fas fa-music fa-3x px-4"></i></span>
                   <div class="call-now">
-                    <a href="#" class="text-uppercase h4 font-roboto"
-                      >Call Now</a
-                    >
+                    <p class="text-uppercase h4 font-roboto"></p>
+                      For the best songs
+                    </p>
                     <span class="font-roboto py-2 font-roboto"
-                      >(+02) 0101-666-0497</span
+                      ><a href="https://www.youtube.com/watch?v=plg0-wKka38"
+                        >Here</a
+                      ></span
                     >
                   </div>
                 </div>
@@ -254,7 +280,12 @@
 
       <!-------------------------------------end brand --------------------->
       <!-------------------------------------start services --------------------->
-      <section class="services-area">
+      <section
+        class="services-area"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center services-title">
@@ -353,7 +384,12 @@
 
       <!-------------------------------------end services --------------------->
       <!--------------------start project area--------------------------->
-      <section class="project-area">
+      <section
+        class="project-area"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="container ">
           <div class="priject-title pb-5">
             <h1 class="text-uppercase title-h1 ">
@@ -429,8 +465,8 @@
                   </a>
                 </div>
                 <div class="title py-4">
-                  <h4 class="text-uppercase">Old Photo</h4>
-                  <span class="text-secondary">Old,Portfolio</span>
+                  <h4 class="text-uppercase">Colored Photo</h4>
+                  <span class="text-secondary">Colored,Portfolio</span>
                 </div>
               </div>
             </div>
@@ -584,7 +620,12 @@
       <!--------------------end project area-------------------------->
 
       <!--------------------start they say -------------------------->
-      <section class="they-say">
+      <section
+        class="they-say"
+        data-aos="fade-down"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
@@ -693,7 +734,12 @@
           </div>
         </div>
       </section>
-      <section class="they-say">
+      <section
+        class="they-say"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
@@ -804,10 +850,10 @@
       <!--------------------end they say-------------------------->
 
       <!--------------------start subscribe-------------------------->
-      <section class="subscribe-area">
+      <section class="subscribe-area " data-aos="fade-up">
         <div class="container subscribe">
           <div class="row">
-            <div class="col-lg-12 text-center subscribe-title">
+            <div class="col-lg-12 col-md-12 text-center subscribe-title">
               <h4 class="text-uppercase ">get update from anywhere</h4>
               <p class="para">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
@@ -842,9 +888,9 @@
       <!--------------------end subscribe  -------------------------->
     </main>
     <!--######################## end main #############################-->
-    <footer class="footer-area">
+    <footer class="footer-area" data-aos="fade-up">
       <div class="container">
-        <div class=" ">
+        <div>
           <div class="site-logo text-center py-4">
             <a href="#"><img src="img/logo.jpg" alt="logo"/></a>
           </div>
@@ -880,6 +926,8 @@
     <script src="vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
     <!--owl carousel js-->
     <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <!--aos-->
+    <script src="js/aos.js"></script>
     <!--custom js file-->
     <script src="js/main.js"></script>
   </body>
