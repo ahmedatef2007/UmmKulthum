@@ -189,6 +189,8 @@
   width: 16rem;
   margin: 2%;
   transition: box-shadow.7s ease;
+  height: 34rem;
+
 }
 
 .site-main > .services-area .services:hover {
