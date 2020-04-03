@@ -37,9 +37,6 @@
 /*****************end navigation********************/
 
 /*************** start banner********************/
-.site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-}
 
 .site-main .site-banner .site-title h3 {
   padding-top: 35%;
@@ -190,7 +187,6 @@
   margin: 2%;
   transition: box-shadow.7s ease;
   height: 34rem;
-
 }
 
 .site-main > .services-area .services:hover {
@@ -295,7 +291,6 @@
   width: 400px;
   padding: 1.5rem 1rem;
   border: 1px solid whitesmoke;
-  background: transparent;
   color: black;
   font-style: normal;
   font-weight: 500;

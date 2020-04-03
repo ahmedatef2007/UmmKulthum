@@ -99,3 +99,6 @@ button:active button:hover .btn:active,
   transition: background 1s ease;
 }
 
+.para2 {
+  color: whitesmoke;
+}
