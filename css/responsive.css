@@ -19,6 +19,9 @@
   .site-main > .services-area .services {
     width: 13rem;
   }
+  .site-main .they-say .person {
+    height: 20rem;
+  }
 }
 /* if the veiwport is equal to 792px or less*/
 
@@ -51,6 +54,9 @@
   .site-main .subscribe-area .subscribe form .input-textbox input {
     width: 20rem;
     margin: 5%;
+  }
+  .site-main .they-say .person {
+    height: 40rem;
   }
 }
 /* if the veiwport is equal to 1910px or less*/
